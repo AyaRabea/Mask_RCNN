@@ -33,9 +33,10 @@ import json
 import datetime
 import numpy as np
 import skimage.draw
+sys.path.append("/content/Mask_RCNN/mrcnn/")
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("../../")
+ROOT_DIR = os.path.abspath("../content/Mask_RCNN/")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
